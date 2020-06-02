@@ -10,6 +10,7 @@ CREATE TABLE `device` (
 CREATE TABLE `devicetype` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT NULL,
+  `type` varchar(255) DEFAULT NULL,
   `power` varchar(255) DEFAULT NULL,
   `voltage` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
